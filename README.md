@@ -6,7 +6,7 @@ Unfortunately IntelliJ does not provide simple way to export/import partial cont
 
 To install
 ----------
-Copy this file into your `~/Library/Preferences/IntelliJIdea12/templates`
+Copy the xml file`customjava.xml` into your `~/Library/Preferences/IntelliJIdea12/templates`
 
 To execute
 ----------
