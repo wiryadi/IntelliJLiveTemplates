@@ -16,7 +16,7 @@ Content:
 ========
 * __test__ - junit `test` method
 
-``` java
+```java
     @Test
     public void should() throws Exception {
         
@@ -24,5 +24,17 @@ Content:
 ```
 * __with__ - builder patttern `with` method
 
+```java
+    public SomeBuilder withPropertyName(String propertyName) {
+        this.propertyName = propertyName;
+        return this;
+    }
+```
+`SomeBuilder` is automatically inferred from current class, and propertyName automatically synchronize to the mehtod name
+
 * __log__ - SLF4J logger declaration
- 
+
+```java
+    private static final Logger logger = LoggerFactory.getLogger(MyClass.class);
+```
+`MyClass` is automatically inferred from current class.
