@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<templateSet group="aaCustom">
+<templateSet group="customjava">
   <template name="test" value="@Test&#10;public void should$AssertSomething$() throws Exception {&#10;    $END$&#10;}" description="Unit Test Method" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="AssertSomething" expression="" defaultValue="AssertSomething" alwaysStopAt="true" />
     <context>

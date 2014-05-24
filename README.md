@@ -30,7 +30,7 @@ Content:
         return this;
     }
 ```
-`SomeBuilder` is automatically inferred from current class, and propertyName automatically synchronize to the mehtod name
+`SomeBuilder` is automatically inferred from current class, and propertyName automatically synchronize to the method name
 
 * __log__ - SLF4J logger declaration
 
